@@ -1,10 +1,10 @@
-# (Dataset Exploration Title)
-## by (your name here)
+# Prosper Loan Data Analysis
+## by Aaron Remski
 
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
+> The prosper loan dataset is comprised of 81 variables which 114,000 records utilize. Each record represents one loan. With variables such as EmploymentStatus, Occupation, BorrrowerRate, ProsperScore, IsBorrowerHomeOwner, etc. one may find some surpriseing correlations.
 
 
 ## Summary of Findings
