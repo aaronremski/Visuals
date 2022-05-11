@@ -4,7 +4,7 @@
 
 ## Dataset
 
-> The prosper loan dataset is comprised of 81 variables which 114,000 records utilize. Each record represents one loan. With variables such as EmploymentStatus, Occupation, BorrrowerRate, ProsperScore, IsBorrowerHomeOwner, etc. one may find some surpriseing correlations.
+> The prosper loan dataset is comprised of 81 variables which 114,000 records utilize. Each record represents one loan. With variables such as EmploymentStatus, Occupation, BorrrowerRate, ProsperScore, IsBorrowerHomeOwner, etc. one may find some surprising correlations.
 
 
 ## Summary of Findings
