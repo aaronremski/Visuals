@@ -2,15 +2,18 @@
 
 ## Communicate Data Finding example questions
 
-1. What factors affect a loan’s outcome status?
+1. What factors affect a loan’s outcome status? Looking at the application info 
 2. What are common characteristics of borrower’s APR or interest rate?
-3. Are there differences between loans depending on how large the original loan amount was?
+3. DebtToIncomeRatio, IncomeRange, ProsperRating (alpha), CreditGrade, PastDue (lengths)	
 
-## Univariate Findings
+## Univariate Exploration & Findings
 1. Very peculiar - a disproportionate number of loans are made with 31% BorrowerRate & 36% BorrowerAPR
 
+## Bivariate Exploration & Findings
+1. Surprisingly, there was no difference in homeownership between completed loans & defaulted loans.
+2. 
 
 ## Additional (Original) questions
 
 1. Occupation v InterestRate
-2. Occupation v 
+2. Occupation v Types of Loans

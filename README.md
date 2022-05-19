@@ -1,10 +1,10 @@
-# (Dataset Exploration Title)
-## by (your name here)
+# Prosper Loan Dataset Exploration with Visual Analysis
+## by Aaron Remski
 
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
+> The Prosper Loan Data used for this project was obtained  If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
 
 
 ## Summary of Findings
