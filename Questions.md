@@ -12,6 +12,7 @@
     c. low debt to income ratio correlates to higher IncomeRange
     
 ## Variables looking to explore further
+
 1. DebtToIncomeRatio
 2. IncomeRange
 3. ProsperRating (alpha)
@@ -19,11 +20,29 @@
 5. PastDue (lengths)
 6. CreditScoreRangeLower
 7. CreditScoreRangeUpper
+8. MonthlyLoanPayment
+9. LoanOriginalAmount
 
 ## Univariate Exploration & Findings
+### Numerical & Visual Inspection of:
+
+1. IncomeRange
+2. ProsperRating (Alpha)
+3. LoanStatus
+4. LoanOriginalAmount (2 plots)
+5. Credit Grade (all loans)
+9. LoanStatus - Loans that are in a "Past Due #days" status
+
 1. Very peculiar - a disproportionate number of loans are made with 31% BorrowerRate & 36% BorrowerAPR
 
 ## Bivariate Exploration & Findings
+### Numerical & Visual Inspection of:
+
+1. Credit Grades (Loans < 5000) vs. Credit Grades (Loans > 5000)
+2. LoanStatus - Defaulted vs. Chargedoff
+3. BorrowerRates (Failed Loans) distribution vs. BorrowerRates (Completed Loans) distribution
+4. Faceted CreditGrade for LoanOriginalAmount
+
 1. Surprisingly, there was no difference in homeownership between completed loans & defaulted loans.
 2. 
 
