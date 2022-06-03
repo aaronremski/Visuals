@@ -2,15 +2,15 @@
 
 ## Potential Questions to consider in the analysis
 
-$ 1. What factors affect a loan’s outcome status? Must have application info to better arrive at these answers. $
-2. What are common characteristics of borrowers who have high interest rate, or default, or certain occupation?
-3. Are there any indicators in the data showing the 2007-09 crash/correction?
-4. Are there any indicators in the data showing signs that 2007-09 was coming? What's the range of dates?
-5. What kinds of relationships do you expect to find?
-    a. higher creditscores get lower interest rates
-    b. high credit scores have higher rate of completion(repayment)
-    c. low debt to income ratio correlates to higher IncomeRange
-6. Is there a consistent delta between BorrowerAPR & BowwowerRate?
+
+1. What are common characteristics of borrowers who have high interest rate, or default, or certain occupation?
+2. Are there any indicators in the data showing the 2007-09 crash/correction?
+3. Are there any indicators in the data showing signs that 2007-09 was coming? What's the range of dates?
+4. What kinds of relationships do you expect to find? </br>
+    a. higher creditscores get lower interest rates </br>
+    b. high credit scores have higher rate of completion(repayment) </br>
+    c. low debt to income ratio correlates to higher IncomeRange </br>
+5. Is there a consistent delta between BorrowerAPR & BowwowerRate?
 
 
 ## Variables looking to explore further
