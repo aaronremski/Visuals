@@ -1,19 +1,45 @@
 # Prosper Loan Data - Questions to ask of the data
 
+## ------------------------------------------------------------------------------------------------
+Current Analysis Questions in 'Prosper Loan Data Exploration' notebook
+## This analysis will explore:
+1. What are some common characteristics of 'successful' (completed) vs 'failed' (defaulted & chargedoff) loans?
+2. Are there any surprising characteristics of 'successful' loans?
+3. Do some of the expected/obvious value relationships check out? 
+    a. higher creditscores correlate with lower interest rates
+    b. high credit scores have higher rate of completion(repayment)
+    c. low debt to income ratio correlates to higher IncomeRange
+
+4. What are common characteristics of borrowers who have high interest rate, or default, or certain occupation?
+
+## Features in the dataset that will help support the investigation
+1. LoanStatus, 
+## ------------------------------------------------------------------------------------------------
+
+Current Notes for going to submittal ASAP while still being creative
+
+## ------------------------------------------------------------------------------------------------
+
 ## Potential Questions to consider in the analysis
 
 
-1. What are common characteristics of borrowers who have high interest rate, or default, or certain occupation?
+1. Are there any interesting trends or features of people who share the same occupation?</br>
+    A. 
+    Occupation vs:
+            a. InterestRate
+            b. Types of Loans
+            c. DebtToIncomeRatio
 2. Are there any indicators in the data showing the 2007-09 crash/correction?
-3. Are there any indicators in the data showing signs that 2007-09 was coming? What's the range of dates?
-4. What kinds of relationships do you expect to find? </br>
-    a. higher creditscores get lower interest rates </br>
-    b. high credit scores have higher rate of completion(repayment) </br>
-    c. low debt to income ratio correlates to higher IncomeRange </br>
-5. Is there a consistent delta between BorrowerAPR & BowwowerRate?
+3. Are there any indicators in the data showing signs that 2007-09 was coming? 
+4.
+5. What kinds of relationships do you expect to find? </br>
+    A. higher creditscores get lower interest rates </br>
+    B. high credit scores have higher rate of completion(repayment) </br>
+    C. low debt to income ratio correlates to higher IncomeRange </br>
+6. Is there a consistent delta between BorrowerAPR & BowwowerRate?
 
 
-## Variables looking to explore further
+## Variables required to answer potential questions?
 
 1. DebtToIncomeRatio
 2. IncomeRange
@@ -31,12 +57,18 @@
 
 1. IncomeRange
 2. ProsperRating (Alpha)
+
+*Bivariate case: Occupation v. LoanStatus*
 3. LoanStatus </br>
     a. Past Due</br>
     b. Defaulted/Chargedoff (Failed)</br>
     c. Completed (Successful)
+    
 4. LoanAmount
+
+*Bivariate case: Occupation v. BorrowerRate*
 5. BorrowerRate
+
 6. CreditGrade
 
 1. Very peculiar - a disproportionate number of loans are made with 31% BorrowerRate & 36% BorrowerAPR
