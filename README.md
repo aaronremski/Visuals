@@ -10,7 +10,7 @@
 ## Summary of Findings
 
 > Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
-
+> 
 
 ## Key Insights for Presentation
 

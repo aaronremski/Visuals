@@ -1,19 +1,25 @@
 # Prosper Loan Data - Questions to ask of the data
 
 ## ------------------------------------------------------------------------------------------------
-Current Analysis Questions in 'Prosper Loan Data Exploration' notebook
+
+_Current Analysis Questions in 'Prosper Loan Data Exploration' notebook_
+
 ## This analysis will explore:
 1. What are some common characteristics of 'successful' (completed) vs 'failed' (defaulted & chargedoff) loans?
 2. Are there any surprising characteristics of 'successful' loans?
-3. Do some of the expected/obvious value relationships check out? 
+3. What are common characteristics of borrowers who have high interest rate, or default, or certain occupation?
+4. Do some of the expected/obvious relationships check out? 
     a. higher creditscores correlate with lower interest rates
     b. high credit scores have higher rate of completion(repayment)
     c. low debt to income ratio correlates to higher IncomeRange
 
-4. What are common characteristics of borrowers who have high interest rate, or default, or certain occupation?
-
+5. Are there differences between loans made before the subprime crash in 2008?
+    a. Dec 22, 2005, yield curve for US Treasurys inverts.
+    b. These loans originated at the beginning of the subprime crash in 2008
+ 
 ## Features in the dataset that will help support the investigation
-1. LoanStatus, 
+1. LoanStatus 
+
 ## ------------------------------------------------------------------------------------------------
 
 Current Notes for going to submittal ASAP while still being creative
@@ -24,8 +30,7 @@ Current Notes for going to submittal ASAP while still being creative
 
 
 1. Are there any interesting trends or features of people who share the same occupation?</br>
-    A. 
-    Occupation vs:
+    A. Occupation vs:
             a. InterestRate
             b. Types of Loans
             c. DebtToIncomeRatio
@@ -39,18 +44,19 @@ Current Notes for going to submittal ASAP while still being creative
 6. Is there a consistent delta between BorrowerAPR & BowwowerRate?
 
 
-## Variables required to answer potential questions?
+## Features/Variables required to explore questions?
 
-1. DebtToIncomeRatio
+1. LoanStatus
 2. IncomeRange
 3. StatedMonthlyIncome
+4. IncomeBracket
 4. ProsperRating (alpha)
 5. CreditGrade
 6. PastDue (lengths)
-7. CreditScoreRangeLower
-8. CreditScoreRangeUpper
-9. MonthlyLoanPayment
-10. LoanOriginalAmount
+7. CreditScoreRangeLower &bCreditScoreRangeUpper
+8. MonthlyLoanPayment
+9. LoanOriginalAmount
+10. DebtToIncomeRatio
 
 ## Univariate Exploration & Findings
 ### Numerical & Visual Inspection of:
