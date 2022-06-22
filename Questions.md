@@ -6,7 +6,8 @@ _Current Analysis Questions in 'Prosper Loan Data Exploration' notebook_
 
 ## This analysis will explore:
 1. What are some common characteristics of 'successful' (completed) vs 'failed' (defaulted & chargedoff) loans?
-2. Are there any surprising characteristics of 'successful' loans?
+2. Are there any surprising characteristics of 'successful' or 'failed' loans?
+
 3. What are common characteristics of borrowers who have high interest rate, or default, or certain occupation?
 4. Do some of the expected/obvious relationships check out? 
     a. higher creditscores correlate with lower interest rates
@@ -16,7 +17,9 @@ _Current Analysis Questions in 'Prosper Loan Data Exploration' notebook_
 5. Are there differences between loans made before the subprime crash in 2008?
     a. Dec 22, 2005, yield curve for US Treasurys inverts.
     b. These loans originated at the beginning of the subprime crash in 2008
- 
+
+
+
 ## Features in the dataset that will help support the investigation
 1. LoanStatus 
 
